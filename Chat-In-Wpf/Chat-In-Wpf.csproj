@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="AIService.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,9 +95,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Images\whatsapp.jpg" />
+    <Resource Include="Images\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\whatsappBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
